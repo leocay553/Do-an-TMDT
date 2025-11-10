@@ -2,7 +2,7 @@
   "name": "do-an",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://leocay553.github.io/doan-react",
+  "homepage": "https://leocay553.github.io/Do-an-TMDT",
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.2",
     "ajv": "6.12.6",
@@ -26,6 +26,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [

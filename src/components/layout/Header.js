@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Layout, Menu, Badge, Avatar, Dropdown, Drawer, Button } from "antd";
@@ -22,7 +21,7 @@ const Header = () => {
   const navigate = useNavigate();
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  // Tính tổng số lượng sản phẩm trong giỏ
+ 
   const totalQuantity = cartItems.reduce((sum, item) => sum + (item.quantity || 0), 0);
 
   const userMenu = {
@@ -156,7 +155,7 @@ const Header = () => {
         />
       </Drawer>
 
-      {/* Hiệu ứng RGB animation */}
+      
       <style>
         {`
           @keyframes rgbMove {
