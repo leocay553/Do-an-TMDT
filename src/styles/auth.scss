@@ -1,0 +1,42 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #0a0f1e, #000);
+
+  .auth-card {
+    width: 400px;
+    background: #1a2234;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+
+    h3, label, .ant-typography {
+      color: #e6e6e6 !important;
+    }
+
+    .ant-input,
+    .ant-input-password {
+      background: #101828;
+      border-color: #2b3958;
+      color: #e6e6e6;
+
+      &:hover,
+      &:focus {
+        border-color: #40a9ff;
+        box-shadow: 0 0 4px #40a9ff50;
+      }
+    }
+
+    .ant-btn-primary {
+      background: linear-gradient(90deg, #0066ff, #40a9ff);
+      border: none;
+      font-weight: 600;
+
+      &:hover {
+        background: linear-gradient(90deg, #1a7cff, #5ec8ff);
+      }
+    }
+  }
+}

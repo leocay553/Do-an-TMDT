@@ -1,0 +1,65 @@
+.admin-container {
+  padding: 24px;
+  background-color: #0f172a;
+  min-height: 100vh;
+  color: white;
+
+  .ant-table {
+    background: #1e293b !important;
+    color: white !important;
+  }
+
+  .ant-table-thead > tr > th {
+    background: #22c55e !important;
+    color: #fff !important;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .ant-table-tbody > tr > td {
+    text-align: center;
+    color: #e2e8f0 !important;
+  }
+
+  .ant-modal-content {
+    background: #1e293b !important;
+    color: white !important;
+  }
+
+  .ant-modal-header {
+    background: #22c55e !important;
+    color: white !important;
+  }
+
+  .ant-input,
+  .ant-input-number-input {
+    background: #0f172a !important;
+    color: white !important;
+    border: 1px solid #22c55e !important;
+  }
+
+  .ant-btn-primary {
+    background: #22c55e !important;
+    border: none;
+  }
+
+  .ant-btn-dangerous {
+    border: none !important;
+  }
+}
+/* admin.scss */
+.ant-input,
+.ant-input-number-input {
+  color: #fff !important;
+  background-color: #1e293b !important;
+  border-color: #00ffcc !important;
+}
+
+.ant-input::placeholder,
+.ant-input-number-input::placeholder {
+  color: #94a3b8 !important;
+}
+
+.ant-form-item-label > label {
+  color: #00ffcc !important;
+}
