@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Do-an-TMDT/static/css/main.5e667113.css",
-    "main.js": "/Do-an-TMDT/static/js/main.2559f22d.js",
+    "main.js": "/Do-an-TMDT/static/js/main.ea45b765.js",
     "index.html": "/Do-an-TMDT/index.html",
     "main.5e667113.css.map": "/Do-an-TMDT/static/css/main.5e667113.css.map",
-    "main.2559f22d.js.map": "/Do-an-TMDT/static/js/main.2559f22d.js.map"
+    "main.ea45b765.js.map": "/Do-an-TMDT/static/js/main.ea45b765.js.map"
   },
   "entrypoints": [
     "static/css/main.5e667113.css",
-    "static/js/main.2559f22d.js"
+    "static/js/main.ea45b765.js"
   ]
 }
